@@ -1,14 +1,33 @@
 # QuadMotorHAT
 
+When I was making my WRO robot, I faced problems interfacing multiple motors with easy wiring to my Raspberry Pi, and I wanted to use a single board. While there are many HATs available, I decided to build my own to keep it as simple as possible with effortless control.
 
+## Features
 
+* **4 Motor Control:** Simple control using the included Python library.
+* **Screw Terminals:** Reliable screw terminals for secure motor and power connections.
+* **Compact Design:** Low profile design that leaves enough clearance to mount a cooling fan on your Pi.
 
+---
 
-##### When I was making my WRO robot, i faced problems with interfacing multiple motors with easy wiring to my RPi, and i only wanted to use one board. I know there are a lot of HATs available, but i wanted to make my own to be as simple as possible and with easy control.
+## Instructions
 
+### 1. Setup
 
+### Ensure gpiozero is installed:
 
-* 4 motor control using easy to use shipped python library
-* Screw terminals for motors and power for better connections
-* Compact design, you will still be able to fit a fan on the Pi
+```bash
+pip install gpiozero
+```
 
+Place `quadmotorhat.py` inside your project directory alongside your main script:
+
+```text
+your_project/
+├── quadmotorhat.py
+└── main.py
+```
+
+```python
+from quadmotorhat import M1, M2, M3, M4
+```

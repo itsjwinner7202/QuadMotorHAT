@@ -1,10 +1,10 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"C1, C3, C4, C5";"C_0805_2012Metric";4;"0.1uF";;;
-2;"C2";"CP_Radial_D6.3mm_P2.50mm";1;"100uF 35V";;;
-3;"D1";"LED_0805_2012Metric";1;"LED";;;
-4;"J1";"PinSocket_2x20_P2.54mm_Vertical";1;"GPIO";;;
-5;"J2";"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal";1;"MPWR";;;
-6;"J3";"TerminalBlock_Phoenix_MKDS-1,5-5_1x05_P5.00mm_Horizontal";1;"M3/GND/M4";;;
-7;"J4";"TerminalBlock_Phoenix_MKDS-1,5-5_1x05_P5.00mm_Horizontal";1;"M1/GND/M2";;;
-8;"R1";"R_0805_2012Metric";1;"330";;;
-9;"U2, U3";"DIP-16_W7.62mm";2;"L293D";;;
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"C1,C3,C4,C5","0.1uF","","Capacitor_SMD:C_0805_2012Metric","4",""
+"C2","100uF 35V","","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","1",""
+"D1","LED","","LED_SMD:LED_0805_2012Metric","1",""
+"J1","GPIO","","Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical","1",""
+"J2","MPWR","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal","1",""
+"J3","M3/GND/M4","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-5_1x05_P5.00mm_Horizontal","1",""
+"J4","M1/GND/M2","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-5_1x05_P5.00mm_Horizontal","1",""
+"R1","330","","Resistor_SMD:R_0805_2012Metric","1",""
+"U2,U3","L293D","http://www.ti.com/lit/ds/symlink/l293.pdf","Package_DIP:DIP-16_W7.62mm","2",""
